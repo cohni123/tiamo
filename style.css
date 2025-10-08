@@ -1,0 +1,154 @@
+body {
+    background: linear-gradient(135deg, #ffe0ec 0%, #fff7f0 100%);
+     font-family: "Quicksand", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 500px;
+    margin: 60px auto;
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 4px 24px rgba(255, 192, 203, 0.2);
+    text-align: center;
+    padding: 32px 24px;
+}
+
+h1, h2, p {
+    color: #e75480;
+    margin-bottom: 16px;
+    font-size: 2em;
+}
+
+.message {
+    color: #555;
+    font-size: 1.2em;
+    margin-bottom: 24px;
+}
+
+.flowers {
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(231, 84, 128, 0.1);
+}
+
+.main-btn {
+    display: inline-block;
+    margin: 20px 8px 40px 8px;
+    padding: 12px 28px;
+    background: #e75480;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1em;
+    text-decoration: none;
+    box-shadow: 0 2px 8px rgba(231, 84, 128, 0.1);
+    transition: background 0.2s;
+}
+.main-btn:hover {
+    background: #d13c6b;
+}
+
+.alt-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 28px 0;
+    gap: 18px;
+    text-align: left;
+
+}
+.alt-section img {
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(231, 84, 128, 0.1);
+}
+.alt-section p {
+    flex: 1;
+    font-size: 1.1em;
+    color: #555;
+    margin: 0;
+}
+.container-cart {
+    max-width: 800px;
+    margin: 60px auto;
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 4px 24px rgba(255, 192, 203, 0.2);
+    text-align: center;
+    padding: 60px 60px;
+}
+.shiny-star img {
+    width: 100%;
+}
+
+.shiny-star2 {
+    width: 60px;
+    height: 60px;
+    animation: orbit2 50s linear infinite;
+}
+
+.shiny-star2 img {
+    width: 100%;
+}
+
+.shiny-star3 {
+    width: 60px;
+    height: 60px;
+    animation: orbit3 50s linear infinite;
+}
+
+.shiny-star3 img {
+    width: 100%;
+}
+
+.shiny-star4 {
+    width: 60px;
+    height: 60px;
+    animation: orbit4 50s linear infinite;
+}
+
+.shiny-star4 img {
+    width: 100%;
+}
+
+@keyframes orbit {
+    0% {
+        transform: rotate(-280deg) translateX(500px) rotate(-350deg);
+    }
+
+    100% {
+        transform: rotate(360deg) translateX(100px) rotate(360deg);
+    }
+}
+
+@keyframes orbit2 {
+    0% {
+        transform: rotate(360deg) translateX(500px) rotate(360deg);
+    }
+
+    100% {
+        transform: rotate(-360deg) translateX(100px) rotate(-360deg);
+    }
+}
+
+@keyframes orbit3 {
+    0% {
+        transform: rotate(320deg) translateX(500px) rotate(360deg);
+    }
+
+    100% {
+        transform: rotate(-360deg) translateX(100px) rotate(-360deg);
+    }
+}
+
+@keyframes orbit4 {
+    0% {
+        transform: rotate(-350deg) translateX(500px) rotate(-160deg);
+    }
+
+    100% {
+        transform: rotate(360deg) translateX(100px) rotate(360deg);
+    }
+}
